@@ -1,0 +1,50 @@
+:root {
+  --primary: #fff;
+}
+
+.botn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.botn--primary {
+  background-color: var(--primary);
+  color: #161a29;
+  border: 1px solid var(--primary);
+}
+
+.botn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.botn--green {
+  background-color: transparent;
+  color: #4ddda3;
+  padding: 8px 20px;
+  border: 1px solid #4ddda3;
+  transition: all 0.3s ease-out;
+}
+
+.botn--medium {
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.botn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.botn--medium:hover,
+.botn--large:hover {
+  background: #4ddda3;
+  color: #161a29;
+  transition: all 0.3s ease-out;
+}
