@@ -47,6 +47,14 @@
   border-radius: 10px;
 }
 
+.features-slider > p {
+  font-size: 1.5rem;
+}
+
+.features-slider > h2 {
+  font-size: 2rem;
+}
+
 .panel-container {
   background-color: #161a29;
   display: flex;

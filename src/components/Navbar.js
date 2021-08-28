@@ -31,7 +31,7 @@ function Navbar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img
               className="navbar-img"
-              src="images/logo.PNG"
+              src="images/Logo_color.png"
               alt="tumovil logo"
             />
           </Link>
@@ -41,7 +41,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/clientes"
+                to="/aliados"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -58,7 +58,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/faqs" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/corporativos"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Corporativos
               </Link>
             </li>

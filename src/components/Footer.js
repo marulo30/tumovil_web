@@ -9,15 +9,15 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Acerca de nosotros</h2>
-            <Link to="/">Como funciona</Link>
-            <Link to="/">Testimonios</Link>
-            <Link to="/">Terminos de Servicio</Link>
+            <Link to="/como">Como funciona</Link>
+            <Link to="/testimonio">Testimonios</Link>
+            <Link to="/termino">Terminos de Servicio</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contáctanos</h2>
-            <Link to="/">Contacto</Link>
-            <Link to="/">Soporte</Link>
-            <Link to="/">Preguntas frecuentes</Link>
+            <Link to="/contacto">Contacto</Link>
+            <Link to="/soporte">Soporte</Link>
+            <Link to="/preguntas">Preguntas frecuentes</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">

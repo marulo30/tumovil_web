@@ -6,8 +6,10 @@ function Registro() {
   return (
     <>
       <section className="footer-subscription">
+        <h3>Regístrate para recibir información</h3>
         <p className="footer-subscription-heading">
-          Regístrate para recibir información
+          Sube los documentos y cuando todo este aprobado estar listo para
+          conectarte y ser parte de la alianza TUMOVIL
         </p>
         <div className="input-areas" id="registro-form">
           <form>

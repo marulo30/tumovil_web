@@ -4,13 +4,13 @@ import Cards from "../Cards";
 import Footer from "../Footer";
 import Hero from "../Hero";
 
-export default function FAQs() {
+export default function Preguntas() {
   return (
     <>
       <Hero
-        title="CORPORATIVOS"
+        title="PREGUNTAS FREQUENTES"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis id varius vulputate."
-        image="images/faqs.jpg"
+        image="images/ayuda.jpg"
       />
       <Cards />
       <Footer />

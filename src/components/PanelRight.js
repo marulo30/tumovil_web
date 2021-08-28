@@ -10,14 +10,8 @@ function PanelRight(props) {
         </figure>
 
         <div className={"features-slider " + props.style}>
-          <h2>Lorem ipsum dolor</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper
-            tristique felis, vitae tempus magna. Proin sit amet hendrerit sem.
-            Curabitur nec mauris vehicula, ultrices massa placerat, vulputate
-            tortor. Aliquam erat volutpat. In at lacus molestie, hendrerit nisl
-            a, fermentum lacus. Ut vel leo lorem. Integer velit tellus.
-          </p>
+          <h2>{props.title}</h2>
+          <p>{props.text}</p>
         </div>
       </div>
     </>
